@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Survey</h1>
+    <form action="" method="post">
+        <p><label for="name">Name:</label> <input type="text" name="name" id="name" required> </p>
+        <p><label for="email">email:</label><input type="email" name="email" id="email" required></p>
+        <p><label for="phone_number">Number:</label><input type="tel" name="phone" id="phone_number" required></p>
+        <p><label for="year">Year:</label>
+            <select name="year" id="year">
+                <option value="">Please Select</option>
+                <option value="1">Year 1</option>
+                <option value="2">Year 2</option>
+                <option value="4">Year 4</option>
+            </select></p>
+        <p><label for="device">Which electronic device do you use?</label></p>
+        <p><input type="checkbox" name="device" id="computer">computer</p>
+        <p><input type="checkbox" name="device" id="ebook">ebook</p>
+        <p><input type="checkbox" name="device" id="phone">phone</p>
+
+        <p><label for="hours">How many hours a day do you spend using electronic devices?</label></p>
+        <p><input type="radio" name="hours" id="1 hour">1 hours</p>
+        <p><input type="radio" name="hours" id="2 hours">2 hours</p>
+        <p><input type="radio" name="hours" id="3 hours+">3 hours +</p>
+        
+        
+        <p><input type="submit" value="submit survey"></p>
+        
+    </form>
+</body>
+</html>
