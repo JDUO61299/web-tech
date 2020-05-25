@@ -1,0 +1,50 @@
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+    margin: 0%;
+    font-family: helvetica;
+}
+
+#icon {
+    margin-right: 15px;
+    float: right;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#logo {
+    margin-left: 15px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#header {
+    background-color: #d7d6d6;
+    width: 100%;
+    height: 70px;
+    border-style: double;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+#wrapper {
+    text-align: center;
+    font-family: helvetica;
+    background-color: #8D8D92;
+    text-align: center;
+    border-style: double;
+}
+
+#tech1, #tech2, #tech3, #tech4, #tech5, #tech6, #tech7, #tech8, #tech9, #tech10, #tech11, #tech12, #tech13, #tech14, #tech15, #tech16 {
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px black;
+    margin: 7px;
+}
+
+
