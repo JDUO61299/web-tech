@@ -1,0 +1,67 @@
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+    margin: 0%;
+    font-family: helvetica;
+
+}
+
+#wrapper {
+    text-align: center;
+    font-family: helvetica;
+    background-color: #8d8d92;
+}
+
+#body {
+    color: black;
+}
+
+#icon {
+    margin-right: 15px;
+    margin-bottom: auto;
+    float: right;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#logo {
+    margin: 0px;
+    margin-bottom: 6px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#header {
+    background-color: #d7d6d6;
+    width: 100%;
+    height: 70px;
+    border-style: double;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    
+}
+
+#profile {
+    border-radius: 50%;
+    margin: 1cm;
+}
+
+#bio {
+    background-color: white;
+    border-style: double;
+}
+
+#background_image {
+    width: 100%;
+    background-color: black; 
+}
+
+#middle {
+    filter: grayscale(0%);
+}
+
