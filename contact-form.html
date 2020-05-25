@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="contact-form.css">
+    <title>JDTech Contact Form Page</title>
+    <script defer src="contact-form.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav>
+                <ul>
+                    <img src="logo.png" img id="logo" alt="Website Logo">
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                    <li><a href="contact-form.html">Contact Form</a></li>
+                    <img src="bio-profile-pic.jpg" img id="icon" alt="Jordan Duo Profile Picture">
+                </ul>
+            </nav>
+        </div>
+        <div id="title">
+            <h1>Contact Me</h1>
+        </div>
+
+        <div id="contact">
+            <h2>Contact Form</h2>
+                <div id="error"></div>
+                <form id="form" action="#" method="post">
+                <p><label for="name">Name:</label><input type="text" name="name" id="name"></p>
+                <p><label for="email">Email:</label><input type="email" name="email" id="email" ></p>
+                <p><label for="number">Contact Number:</label><input type="tel" name="number" id="number"></p>
+                <p><label for="business_name">Business Name (if Applicable):</label><input type="text" name="business_name" id="business_name"></p>
+                <p><label for="date_of_form">Date of Form:</label><input type="date" name="date_of_form" id="date_of_form" ></p>
+                <p class="formfield"><label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="120" rows="10" ></textarea></p>
+                <p><input type="submit" value="Submit" id="submit"></p>
+                </form>
+        </div>
+        <div id="emblem">
+            <img src="logo.png" img id="emblem" alt="Website Logo" width="300px" height="300px"> 
+        </div>

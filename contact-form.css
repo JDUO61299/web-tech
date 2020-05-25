@@ -1,0 +1,94 @@
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+    margin: 0%;
+    font-family: helvetica;
+}
+
+#icon {
+    margin-right: 15px;
+    float: right;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#logo {
+    margin-left: 15px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#header {
+    background-color: #d7d6d6;
+    max-width: 100%;
+    height: 70px;
+    border-style: double;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+#wrapper {
+    text-align: center;
+    font-family: helvetica;
+    border-style: double;
+    background-color: white;
+}
+ 
+#form {
+    float: left;
+    text-align: left;
+    border-style: double;
+    width: 100%;
+    background-color: darkgrey;
+
+}
+
+#form input[type="text"] {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid;
+}
+
+#form input[type="email"] {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid;
+}
+
+#form input[type="tel"] {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid;
+}
+
+#form input[type="date"] {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid;
+}
+
+#form input[type="message"] {
+    margin: 5px;
+    border: 2px solid;
+}
+
+#form input[type="submit"] {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.formfield * {
+    vertical-align: middle;
+  }
+
+  #emblem {
+      margin: 20px;
+  }
+

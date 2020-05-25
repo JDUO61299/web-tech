@@ -65,3 +65,9 @@ li {
     filter: grayscale(0%);
 }
 
+#privacy {
+    font-family: helvetica;
+    text-align: center;
+    margin: 20px;
+}
+

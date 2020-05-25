@@ -25,7 +25,7 @@ li {
 
 #header {
     background-color: #d7d6d6;
-    width: 100%;
+    max-width: 100%;
     height: 70px;
     border-style: double;
     position: -webkit-sticky; 
@@ -88,7 +88,7 @@ li {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 90%;
+    width: 100%;
 }
 
 #code{
@@ -96,7 +96,7 @@ li {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 90%;
+    width: 100%;
 }
 
 #web {
@@ -104,7 +104,7 @@ li {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 90%;
+    width: 100%;
 }
 
 #smartwear {
@@ -112,5 +112,21 @@ li {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 90%;
+    width: 100%;
+}
+
+#code:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#robot:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); 
+}
+
+#web:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#smartwear:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
