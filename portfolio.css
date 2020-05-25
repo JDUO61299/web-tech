@@ -1,0 +1,116 @@
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+    margin: 0%;
+    font-family: helvetica;
+}
+
+#icon {
+    margin-right: 15px;
+    float: right;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#logo {
+    margin-left: 15px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#header {
+    background-color: #d7d6d6;
+    width: 100%;
+    height: 70px;
+    border-style: double;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+#robotics {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+#coding {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+#design {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+#smart {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+#articles {
+    display: block;
+    background-color: #8D8D92;
+  
+}
+
+#wrapper {
+    text-align: center;
+    font-family: helvetica;
+    background-color: #8D8D92;
+    text-align: center;
+    border-style: double;
+}
+
+#robot {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+}
+
+#code{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+}
+
+#web {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+}
+
+#smartwear {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+}
